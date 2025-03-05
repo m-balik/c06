@@ -11,7 +11,7 @@ int	main(int argc, char **argv)
 
 	i = 0;
 
-	while (argv[0][i] != '\0' && argc)
+	while (argv[0][i] != '\0' && argc)  //argc gerekli mi test et
 	{
 		ft_putchar(argv[0][i]);
 		i++;
